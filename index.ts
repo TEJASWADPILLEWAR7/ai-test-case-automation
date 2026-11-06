@@ -27,9 +27,8 @@ async function runTestCase(name: string, baseUrl: string, testCase: string) {
 
 async function main() {
   const phpTravelsUrl = "https://phptravels.com/demo";
-  // Changed "Submit" to "Demonstration" to ensure it matches their current UI
   const phpTravelsTest =
-    "Navigate to the home page. Enter 'Tejas' into the First Name field. Enter 'tejas@example.com' into the Email field. Verify that the text 'Demonstration' appears on the page.";
+    "Navigate to the home page. Enter 'Tejas' into the First Name field. Enter 'tejas@example.com' into the Email field. Verify that the text 'Last Name' appears on the page.";
 
   const sauceDemoUrl = "https://www.saucedemo.com/";
   const sauceDemoTest =
